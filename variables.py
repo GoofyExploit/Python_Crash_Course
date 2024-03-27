@@ -1,34 +1,35 @@
-# message = "Hello Python Interpreter!"
-# print(message)
+message = "Hello Python Interpreter!"
+print(message)
 
 # # Simple Message Exercise
 
-# message = "my name is lucky"
-# print(message)
+message = "my name is lucky"
+print(message)
 
 # # Strings:
 
-# name = "ada lovelace"
-# # print(name.title())
-# print(name.lower())
-# print(name.upper())
+name = "ada lovelace"
+print(name.title())
+print(name.lower())
+print(name.upper())
 
-# first_name = "ada"
-# last_name = "lovelace"
-# full_name = f"{first_name} {last_name}"
-# message = f"Hello, {full_name.title()}!"
-# print(message)
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}!"
+print(message)
 
 # # whitespaces:
 
-# print("\tLucky")
-# print("Languages:\n1.Python\n2.Java\n3.Ruby")
+print("\tLucky")
+print("Languages:\n1.Python\n2.Java\n3.Ruby")
 
 # # Stripping Whitespaces:
 
-# fav_lang = 'Python '
-# print(fav_lang)
-# print(fav_lang.rstrip()) for stripping whitespaces from right side and use lstrip() to strip from left side and simply strip() to remove whitespaces from both sides
+fav_lang = 'Python '
+print(fav_lang)
+# for stripping whitespaces from right side and use lstrip() to strip from left and simply strip() to remove whitespaces from both sides
+print(fav_lang.rstrip()) 
 
 # # Removing Prefixes:
 
